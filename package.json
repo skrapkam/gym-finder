@@ -1,22 +1,39 @@
 {
   "name": "gymfinder",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js", 
-    "server": "nodemon index.js", 
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "concurrently": "^4.0.1",
     "express": "^4.16.4",
+    "form-serializer": "^2.5.0",
     "nodemailer": "^4.6.8",
-    "nodemon": "^1.18.4"
-  }
+    "nodemon": "^1.18.4",
+    "react": "^16.5.2",
+    "react-content-loader": "^3.2.0",
+    "react-dom": "^16.5.2",
+    "react-lines-ellipsis": "^0.13.2",
+    "react-placeholder": "^3.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-spinkit": "^3.0.0",
+    "react-transition-group": "^2.5.0",
+    "save": "^2.3.2",
+    "styled-components": "^3.4.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+
+  "description": "This is my gym finder app",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
