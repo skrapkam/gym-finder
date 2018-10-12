@@ -31,7 +31,7 @@ class CityLosAngeles extends Component {
   // 2. Initialize the JavaScript client library.
   window.gapi.client
     .init({
-      apiKey:'AIzaSyC_u18bSXGueaNI8HyQU9lO_kiHN0CmZH8',
+      apiKey:'AIzaSyAMC3HvXCK0vJ-Mh31JQwLjdxzRJAxuIvY',
       // Your API key will be automatically added to the Discovery Document URLs.
       discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest'],
     })
