@@ -1,0 +1,34 @@
+.App__Choose {
+  text-align: center;
+  margin: 10px auto;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.App__VerticalLine {
+  width: 1.2px; /* Line width */
+  background-color: black; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  /* padding: 30px 40px 40px; */
+  padding-bottom: 40px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+ }
+
+.city > a:hover {
+  background: blue;
+  color: white;
+}

@@ -1,0 +1,52 @@
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.Card__Name {
+  margin-top: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Card__Description {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.Card__Image img {
+  width: 250px;
+}
+
+.Card__Website, .Card__Address {
+  padding-bottom: 2px;
+}
+
+.Card__Links {
+  max-width: 400px;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.Card__Links a:hover {
+  background: yellow;
+  color: black;
+}
+
+.Card__hashtag {
+  margin-top: 10px;
+  max-width: 400px;
+  font-size: .9em;
+  font-weight: 300;
+}
+
+
+.item {
+  flex: 0 0 50%;
+  margin-right: 20px;
+}
