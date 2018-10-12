@@ -46,8 +46,7 @@ injectGlobal `
  }
  
  body {
-  width: calc(100vw - 34px);
- }
+  }
 
 `;
 
