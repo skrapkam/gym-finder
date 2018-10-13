@@ -29,6 +29,7 @@
  }
 
 .city > a:hover {
-  background: blue;
-  color: white;
+  background:yellow;
+  color:#000;
+
 }

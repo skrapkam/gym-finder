@@ -17,8 +17,7 @@ export const TitleWrapper = styled.div `
   font-size: 1.5em;
   margin-top: 20px;
   &:hover {
-    background: black;
-    color: white;
+ 
   }
  animation-iteration-count: 1;
 animation-timing-function: ease-in;
