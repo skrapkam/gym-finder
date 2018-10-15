@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Home from '../Home';
-import Header from '../Header';
-import Title from '../Title';
 import SanFrancisco from '../SanFrancisco';
 import LosAngeles from '../LosAngeles';
 import Contribute from '../Contribute';
