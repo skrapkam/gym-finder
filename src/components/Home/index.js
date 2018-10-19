@@ -12,7 +12,7 @@ class Home extends Component {
       <div className="wrapper">
         <Header />
         <Title
-          title="Find your next speciality gym"
+          title="A Gym for Me"
           subtitle="Choose your city"
         />
         <Container>

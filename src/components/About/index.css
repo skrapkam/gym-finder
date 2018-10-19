@@ -2,3 +2,8 @@
     background: yellow;
     color: black;
 }
+
+.About__Container {
+    max-width: 750px;
+    margin: 32px auto;
+}
