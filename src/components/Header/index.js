@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { HeaderCover } from "./style";
+import { StyledLink } from "../../style";
+import { Link } from 'react-router-dom';
 import logo from "./Image-Logo.png"; // Import using relative path
-import "./index.css";
-import { Link } from "react-router-dom";
-
+import "../index.css";
+ 
 class Header extends Component {
   render() {
     return (
@@ -13,10 +14,10 @@ class Header extends Component {
         </Link>
 
         <div className="link">
-          <a href="#">About</a>
+          <StyledLink to="/about">About</StyledLink>
         </div>
         <div className="link">
-          <Link to="/">Cities</Link>
+          <StyledLink to="/">Cities</StyledLink>
         </div>
       </HeaderCover>
     );

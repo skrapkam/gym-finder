@@ -25,6 +25,23 @@ body {
    animation: load8 1.7s infinite ease, round 1.7s infinite ease;
 }
 
+.link {
+  max-width: 130px;
+  margin: 0 auto;
+  text-align: center;
+  float: right;
+  height: 100px;
+  padding-top:40px;
+  padding-left: 30px;
+
+}
+
+.link a:hover {
+  background: yellow;
+  color: black;
+}
+
+
 @keyframes load8 {
   0% {
     box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
