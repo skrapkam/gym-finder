@@ -13,7 +13,7 @@ class Header extends Component {
         </Link>
 
         <div className="link">
-          <a href="#">Info</a>
+          <a href="#">About</a>
         </div>
         <div className="link">
           <Link to="/">Cities</Link>
