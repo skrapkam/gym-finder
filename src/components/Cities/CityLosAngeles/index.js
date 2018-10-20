@@ -14,7 +14,7 @@ class CityLosAngeles extends Component {
   componentDidMount() {
     // 1. Load the JavaScript client library.
     window.gapi.load('client', this.initClient);
-    setTimeout(() => this.setState({ loading: false }), 1500); // simulates an async action, and hides the spinner
+    setTimeout(() => this.setState({ loading: false }), 2500); // simulates an async action, and hides the spinner
 
   }
 

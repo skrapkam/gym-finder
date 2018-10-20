@@ -33,5 +33,5 @@ export const StyledLink = styled(Link)`
 export const Container = styled.div`
   & p {${p}};
   max-width: 80%;
-  margin: 0 auto;
+  margin: 40px auto;
 `;

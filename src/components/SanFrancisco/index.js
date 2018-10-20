@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './index.css';
-import { Container, Cities} from '../../style';
+import '../index.css';
+import { Container, Cities } from '../../style';
 import Title from '../Title';
 import Header from '../Header';
 import CitySanFrancisco from '../Cities/CitySanFrancisco';
 
- class SanFrancisco extends Component {
+class SanFrancisco extends Component {
   render() {
-    return(
+    return (
 
 
       <div className="wrapper">
@@ -18,10 +18,10 @@ import CitySanFrancisco from '../Cities/CitySanFrancisco';
         />
         <Container>
           <div class="loader">
-            <CitySanFrancisco /> 
+            <CitySanFrancisco />
           </div>
         </Container>
-       </div>
+      </div>
     );
   }
 }
