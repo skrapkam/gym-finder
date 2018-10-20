@@ -3,6 +3,7 @@ import Home from '../Home';
 import SanFrancisco from '../SanFrancisco';
 import LosAngeles from '../LosAngeles';
 import Contribute from '../Contribute';
+import About from '../About';
 import '../../loader';
 
 import { injectGlobal } from 'styled-components';
@@ -57,6 +58,7 @@ class App extends Component {
       <Route path="/contribute" component={Contribute} />     
       <Route path="/sanfrancisco" component={SanFrancisco} />
       <Route path="/losangeles" component={LosAngeles} />
+      <Route path="/About" component={About} />
       //add error path
      </Switch>
      </BrowserRouter>
