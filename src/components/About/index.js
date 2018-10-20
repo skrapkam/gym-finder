@@ -13,7 +13,7 @@ class About extends Component {
             <div>
              <Header />
             <Title 
-                title="About"
+                title="A Gym for Me"
             />
 
             <div className="About__Container">
