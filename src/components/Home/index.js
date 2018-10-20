@@ -16,9 +16,9 @@ class Home extends Component {
           subtitle="Choose your city"
         />
         <Container>
-          <div className="App__VerticalLine">
+          {/* <div className="App__VerticalLine">
             <hr width="1" size="40" />
-          </div>
+          </div> */}
           <Cities>
             <div className="city">
               <a href="#">Chicago</a>
