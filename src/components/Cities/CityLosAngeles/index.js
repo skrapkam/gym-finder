@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { load } from '../../../helpers/LosAngeles';
 import Card from '../../Card';
 import { GymContainer } from '../style';
-import './index.css';
 
 class CityLosAngeles extends Component {
 

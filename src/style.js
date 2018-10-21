@@ -11,6 +11,15 @@ export const Cities = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 3em;
   justify-items: center;
+  border: 1px solid blue;
+  background: #fff;
+  &{Cities}:hover{
+    filter: drop-shadow(4px 5px 0px blue);
+    right: 3px;
+    bottom: 3px;
+    z-index:100;
+    position: relative;
+  }
 `;
 
 export const StyledLink = styled(Link)`

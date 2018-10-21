@@ -12,7 +12,6 @@ const fade = keyframes`
 
 export const GymContainer = styled.div `
 margin: 30px auto;
-
 animation: ${fade};
 animation-iteration-count: 1;
 animation-timing-function: ease-in;

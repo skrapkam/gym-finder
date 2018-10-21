@@ -4,6 +4,22 @@
 }
 
 .About__Container {
-    max-width: 750px;
+    max-width: 60%;
     margin: 32px auto;
+    border: 1px solid blue;
+    background: #fff;
 }
+
+.About__Container:hover {
+        filter: drop-shadow(4px 5px 0px blue);
+        right: 3px;
+        bottom: 3px;
+        z-index:100;
+        position: relative;
+}
+
+@media (max-width: 750px) { 
+    .About__Container {
+       max-width: 80%;
+    }
+ }
