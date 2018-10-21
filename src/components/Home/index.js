@@ -45,7 +45,7 @@ class Home extends Component {
               <a href="#"> Seattle</a>
             </div>
             <div className="city">
-              <a href="https://gymfinder-contribute.herokuapp.com/"> Add your city</a>
+              <a href="/contribute"> Add your city</a>
             </div>
           </Cities>
         </Container>

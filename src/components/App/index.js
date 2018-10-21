@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Home from '../Home';
 import SanFrancisco from '../SanFrancisco';
 import LosAngeles from '../LosAngeles';
-import Contribute from '../Contribute';
 import About from '../About';
 import '../../loader';
 
@@ -58,7 +57,6 @@ class App extends Component {
      <BrowserRouter>
      <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/contribute" component={Contribute} />     
       <Route path="/sanfrancisco" component={SanFrancisco} />
       <Route path="/losangeles" component={LosAngeles} />
       <Route path="/About" component={About} />
