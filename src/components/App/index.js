@@ -45,6 +45,7 @@ injectGlobal `
  }
  
  body {
+   //Add highlight color
   }
 
 `;
