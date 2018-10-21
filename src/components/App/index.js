@@ -44,9 +44,12 @@ injectGlobal `
    color: var(--link-color);
  }
  
- body {
-  }
-
+ ::selection {
+	background: rgba(255, 255, 0, 0.2);
+}
+::-moz-selection {
+	background: rgba(255, 255, 0, 0.2);
+}
 `;
 
 class App extends Component {
