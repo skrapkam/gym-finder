@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import '../index.css';
-import { Container, Cities} from '../../style';
-import Title from '../Title';
-import Header from '../Header';
-import CityLosAngeles from '../Cities/CityLosAngeles';
-import Card from '../Card';
+import '../../index.css';
+import { Container, Cities} from '../../../style';
+import Title from '../../Title';
+import Header from '../../Header';
+import CityLosAngeles from './card';
 
 
 

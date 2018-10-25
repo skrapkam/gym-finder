@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { load } from '../../../helpers/SanFrancisco';
+import { load } from './SanFrancisco';
 import Card from '../../Card';
 import { GymContainer } from '../style';
-import './index.css';
+import '../card.css';
 
 class CitySanFrancisco extends Component {
 

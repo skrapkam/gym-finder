@@ -1,4 +1,4 @@
-import styled, {keyframes} from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 const fade = keyframes`
   0% {
@@ -11,7 +11,7 @@ const fade = keyframes`
 `;
 
 
-export const TitleWrapper = styled.div `
+export const TitleWrapper = styled.div`
   text-align: center;
   font-weight: 400;
   font-size: 1.5em;
@@ -19,14 +19,14 @@ export const TitleWrapper = styled.div `
   &:hover {
  
   }
- animation-iteration-count: 1;
+animation-iteration-count: 1;
 animation-timing-function: ease-in;
 animation-duration: .4s;
 opacity: 1;
 
 `;
 
-export const SubtitleWrapper = styled.div `
+export const SubtitleWrapper = styled.div`
 text-align: center;
 margin: 10px auto;
 font-style: italic;

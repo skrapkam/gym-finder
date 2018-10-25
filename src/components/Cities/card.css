@@ -4,5 +4,4 @@ list-style: none;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-gap: 4em;
 justify-items: center;
-
   }
