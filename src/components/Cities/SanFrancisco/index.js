@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../index.css';
-import { Container, Cities } from '../../style';
-import Title from '../Title';
-import Header from '../Header';
-import CitySanFrancisco from '../Cities/CitySanFrancisco';
+import '../../index.css';
+import { Container } from '../../../style';
+import Title from '../../Title';
+import Header from '../../Header';
+import CitySanFrancisco from './card';
 
 class SanFrancisco extends Component {
   render() {

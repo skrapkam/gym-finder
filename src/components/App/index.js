@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from '../Home';
-import SanFrancisco from '../SanFrancisco';
-import LosAngeles from '../LosAngeles';
+import SanFrancisco from '../Cities/SanFrancisco';
+import LosAngeles from '../Cities/LosAngeles';
 import About from '../About';
 import '../../loader';
 

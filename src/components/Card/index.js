@@ -21,23 +21,23 @@ class Card extends Component {
             {Object.keys(this.props.website).length == 0 ? (
               console.log("hello")
             ) : (
-              <a target="_blank" href={this.props.website}>
-                Website
+                <a target="_blank" href={this.props.website}>
+                  Website
               </a>
-            )}
+              )}
           </div>
 
           <div className="Card__Address item">
             {Object.keys(this.props.address).length == 0 ? (
               console.log("hello")
             ) : (
-              <a
-                target="_blank"
-                href={"http://maps.google.com/?q=" + this.props.address}
-              >
-                Address
+                <a
+                  target="_blank"
+                  href={"http://maps.google.com/?q=" + this.props.address}
+                >
+                  Address
               </a>
-            )}
+              )}
           </div>
 
           <div className="Card__Phone item">{this.props.phone}</div>
@@ -46,8 +46,8 @@ class Card extends Component {
             {Object.keys(this.props.submit).length == 0 ? (
               console.log("hello")
             ) : (
-              <a href={this.props.submit}>Submit</a>
-            )}
+                <a href={this.props.submit}>Submit</a>
+              )}
           </div>
         </div>
       </CardContainer>
