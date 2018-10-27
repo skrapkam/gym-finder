@@ -6,7 +6,7 @@ export function load(callback) {
     window.gapi.client.sheets.spreadsheets.values
       .get({
         spreadsheetId: config.spreadsheetId,
-        range: "Sheet2!A2:T",
+        range: "LosAngeles!A2:T",
         valueRenderOption: "UNFORMATTED_VALUE"
       })
       .then(

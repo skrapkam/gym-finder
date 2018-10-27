@@ -21,28 +21,28 @@ class Home extends Component {
           </div> */}
           <Cities>
             <div className="city">
-              <a href="#">Chicago</a>
+              <a href="/chicago">Chicago</a>
             </div>
             <div className="city">
-              <a href="#">Dallas</a>
+              <a href="/dallas">Dallas</a>
             </div>
             <div className="city">
-              <a href="#"> Knoxville</a>
+              <a href="/knoxville"> Knoxville</a>
             </div>
             <div className="city">
               <Link to="/losangeles">Los Angeles</Link>
             </div>
             <div className="city">
-              <a href="#"> New York City</a>
+              <a href="/newyorkcity"> New York City</a>
             </div>
             <div className="city">
-              <a href="#"> Philidelphia</a>
+              <a href="/philadelphia"> Philadelphia</a>
             </div>
             <div className="city">
               <Link to="/sanfrancisco"> San Francisco</Link>
             </div>
             <div className="city">
-              <a href="#"> Seattle</a>
+              <a href="/seattle"> Seattle</a>
             </div>
             <div className="city">
               <a href="https://gymfinder-contribute.herokuapp.com/"> Add your city</a>

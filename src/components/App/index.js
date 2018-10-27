@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import Home from '../Home';
 import SanFrancisco from '../Cities/SanFrancisco';
 import LosAngeles from '../Cities/LosAngeles';
+import Chicago from '../Cities/Chicago';
+import Dallas from '../Cities/Dallas';
+import Knoxville from '../Cities/Knoxville';
+import NewYorkCity from '../Cities/NewYorkCity';
+import Philadelphia from '../Cities/Philadelphia';
+import Seattle from '../Cities/Seattle';
 import About from '../About';
 import '../../loader';
 
@@ -59,6 +65,12 @@ class App extends Component {
       <Route path="/" component={Home} exact />
       <Route path="/sanfrancisco" component={SanFrancisco} />
       <Route path="/losangeles" component={LosAngeles} />
+      <Route path="/chicago" component={Chicago} />
+      <Route path="/dallas" component={Dallas} />
+      <Route path="/knoxville" component={Knoxville} />
+      <Route path="/newyorkcity" component={NewYorkCity} />
+      <Route path="/philadelphia" component={Philadelphia} />
+      <Route path="/seattle" component={Seattle} />
       <Route path="/About" component={About} />
       //add error path
      </Switch>
