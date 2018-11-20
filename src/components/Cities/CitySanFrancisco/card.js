@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { load } from './Philadelphia';
+import { load } from '../../../helpers/SanFrancisco';
 import Card from '../../Card';
 import { GymContainer } from '../style';
-import '../card.css';
+import './index.css';
 
-class CityPhiladelphia extends Component {
+class CitySanFrancisco extends Component {
 
   state = {
   gyms: [],
@@ -59,14 +59,15 @@ class CityPhiladelphia extends Component {
            <li key={i}>
 
                <Card
-               image={gym.image}
-             name={gym.name}
-             description={gym.description}
-             website={gym.website}
-             address={gym.address}
-             phone={gym.phone}
-             hashtag={gym.hashtag}
-             submit={gym.submit}
+              image={gym.image}
+              name={gym.name}
+              description={gym.description}
+              website={gym.website}
+              address={gym.address}
+              phone={gym.phone}
+              hashtag={gym.hashtag}
+              submit={gym.submit}
+
              />
              </li>
          ))}
@@ -77,4 +78,4 @@ class CityPhiladelphia extends Component {
 
 }
 
-export default CityPhiladelphia;
+export default CitySanFrancisco;
