@@ -9,7 +9,7 @@
     "concurrently": "^4.0.1",
     "express": "^4.16.4",
     "nodemailer": "^4.6.8",
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.18.8",
     "react": "^16.5.2",
     "react-content-loader": "^3.2.0",
     "react-dom": "^16.5.2",
@@ -32,7 +32,9 @@
   "description": "This is my gym finder app",
   "main": "index.js",
   "devDependencies": {},
-  "keywords": [],
+  "keywords": [
+
+  ],
   "author": "",
   "license": "ISC"
 }
