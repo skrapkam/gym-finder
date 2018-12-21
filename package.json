@@ -10,9 +10,9 @@
     "express": "^4.16.4",
     "nodemailer": "^4.6.8",
     "nodemon": "^1.18.4",
-    "react": "^16.5.2",
+    "react": "^16.7.0",
     "react-content-loader": "^3.2.0",
-    "react-dom": "^16.5.2",
+    "react-dom": "^16.7.0",
     "react-lines-ellipsis": "^0.13.2",
     "react-placeholder": "^3.0.1",
     "react-router-dom": "^4.3.1",
@@ -32,7 +32,9 @@
   "description": "This is my gym finder app",
   "main": "index.js",
   "devDependencies": {},
-  "keywords": [],
+  "keywords": [
+
+  ],
   "author": "",
   "license": "ISC"
 }
