@@ -18,7 +18,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
     "react-spinkit": "^3.0.0",
-    "react-transition-group": "^2.5.0",
+    "react-transition-group": "^2.5.3",
     "save": "^2.3.2",
     "styled-components": "^3.4.9"
   },
@@ -32,7 +32,9 @@
   "description": "This is my gym finder app",
   "main": "index.js",
   "devDependencies": {},
-  "keywords": [],
+  "keywords": [
+
+  ],
   "author": "",
   "license": "ISC"
 }
