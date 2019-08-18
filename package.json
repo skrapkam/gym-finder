@@ -6,7 +6,7 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "build-create-react-app-netlify": "^1.1.2",
-    "concurrently": "^4.0.1",
+    "concurrently": "^4.1.2",
     "express": "^4.16.4",
     "nodemailer": "^4.6.8",
     "nodemon": "^1.18.4",
