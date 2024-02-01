@@ -8,7 +8,7 @@
     "build-create-react-app-netlify": "^1.1.2",
     "concurrently": "^4.0.1",
     "express": "^4.16.4",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.9.9",
     "nodemon": "^1.18.4",
     "react": "^16.5.2",
     "react-content-loader": "^3.2.0",
